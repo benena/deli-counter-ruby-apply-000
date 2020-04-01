@@ -23,3 +23,17 @@ def now_serving(katz_deli)
     katz_deli.shift
   end
 end
+
+
+counter = 0
+
+def take_a_number(number)
+   counter += 1
+  puts "Welcome, customer. You are number #{counter} "
+end
+
+
+
+
+
+
